@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"allowJs": true,
+		"baseUrl": "src",
+		"downlevelIteration": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"jsx": "react",
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"module": "esnext",
+		"moduleResolution": "node",
+		"outDir": "dist",
+		"skipLibCheck": true,
+		"strict": true,
+		"target": "es5"
+	},
+	"include": ["src", "*.js", ".*.js", "src/**/*.js", "src/**/.*.js"],
+	"exclude": ["webpack.config.js"]
+}

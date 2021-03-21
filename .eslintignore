@@ -1,0 +1,9 @@
+node_modules
+dist
+tests
+**/*.scss.d.ts
+
+.yarn
+
+setup.js
+webpack.config.js
